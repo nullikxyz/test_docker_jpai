@@ -1,0 +1,15 @@
+    1  git clone https://github.com/nullikxyz/test_docker_jpai
+    2  cd test_docker_jpai/
+    6  docker build --help
+    7  docker build -t kolokwium:latest
+    8  docker build -t kolokwium:latest .
+    9  docker run -d -p 3000:3000 --name kontener kolokwium:latest
+   14  docker stop
+   15  docker stop kontener
+   16  docker drop kolokwium:latest
+   17  docker --help
+   18  docker rm kontener
+   19  docker rmi kolokwium:latest
+   20  docker images
+   21  docker ps
+   22  history | grep docker | tee docker.log
